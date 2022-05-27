@@ -43,7 +43,7 @@ TARGET_SCREEN_WIDTH := 1080
 BUILD_FINGERPRINT := "motorola/burton_retail/burton:11/S1PB32.41-10-19/a055d:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=burton_retail \
-    PRIVATE_BUILD_DESC="burton_retail-user 11 S1PB32.41-10-19 a055d release-keys"
+    PRIVATE_BUILD_DESC="burton_retail-user 12 S1PB32.41-10-19 a055d-e2314 release-keys"
 
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus

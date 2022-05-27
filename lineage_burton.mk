@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from instantnoodle device
+# Inherit from burton device
 $(call inherit-product, device/motorola/burton/device.mk)
 
 # Inherit some common Lineage stuff.
@@ -28,7 +28,7 @@ PRODUCT_NAME := lineage_burton
 PRODUCT_DEVICE := burton
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := Motorola Edge Plus
+PRODUCT_MODEL := motorola edge plus
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
@@ -45,4 +45,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="burton_retail-user 12 S1PB32.41-10-19 a055d-e2314 release-keys"
 
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
